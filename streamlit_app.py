@@ -38,4 +38,4 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-components.html(build_embedded_app(), height=1180, scrolling=True)
+components.html(build_embedded_app(), height=1240, scrolling=True)

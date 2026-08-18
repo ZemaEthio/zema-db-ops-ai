@@ -24,6 +24,15 @@ python3 -m http.server 8080
 
 Then open `http://localhost:8080`.
 
+### Run with Streamlit
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+The Streamlit entry point packages the existing dependency-free dashboard into the hosted application without duplicating the product logic.
+
 ## Architecture direction
 
 The browser MVP demonstrates the product workflow. The next implementation phase adds:
